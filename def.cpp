@@ -73,7 +73,7 @@ bool is_winner()
 
 	//checking the diagonals
 	
-	else if ((board[0]==board[4]) && (board[4]==board[9]) && board[0] != " ")
+	else if ((board[0]==board[4]) && (board[4]==board[8]) && board[0] != " ")
 	{
 		winner = true;
 	}
